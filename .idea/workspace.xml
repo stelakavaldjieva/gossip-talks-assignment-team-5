@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93e4bff3-1ed8-4acc-af4b-52855b68bcb5" name="Changes" comment="Reformat code." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yEcZoJOMXD1ibP9kPM9dZSMjNP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth0" value="459" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth1" value="459" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth2" value="459" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth3" value="458" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth0" value="459" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth1" value="459" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth2" value="459" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth3" value="458" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baeldungTutorials" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bg.codeacademy.spring.gossiptalks.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bg.codeacademy.spring.gossiptalks.exception" />
+      <recent name="bg.codeacademy.spring.gossiptalks.password" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GossipControllerTest">
+    <configuration name="mvn-verify" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gossip-talks" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bg.codeacademy.spring.gossiptalks.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GossipControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.codeacademy.spring.gossiptalks.controller" />
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.followUser_returnFollowingFalse_ifFFalse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.codeacademy.spring.gossiptalks.controller" />
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="followUser_returnFollowingFalse_ifFFalse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.codeacademy.spring.gossiptalks.controller" />
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.mvn-verify" />
+      <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.UserControllerTest.followUser_returnFollowingFalse_ifFFalse" />
+      <item itemvalue="TestNG.UserControllerTest.registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch" />
+      <item itemvalue="TestNG.&lt;default&gt; (1)" />
+      <item itemvalue="TestNG.GossipControllerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GossipControllerTest" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.UserControllerTest.registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch" />
+        <item itemvalue="TestNG.UserControllerTest.followUser_returnFollowingFalse_ifFFalse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93e4bff3-1ed8-4acc-af4b-52855b68bcb5" name="Changes" comment="" />
+      <created>1631820246442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631820246442</updated>
+      <workItem from="1631820248407" duration="2003000" />
+      <workItem from="1631822281838" duration="4508000" />
+      <workItem from="1632033111906" duration="20870000" />
+      <workItem from="1632144259866" duration="8746000" />
+      <workItem from="1632314515794" duration="8715000" />
+      <workItem from="1632324200316" duration="29640000" />
+      <workItem from="1632473358613" duration="12539000" />
+      <workItem from="1632495651877" duration="15720000" />
+      <workItem from="1632588633974" duration="23061000" />
+      <workItem from="1632687558713" duration="29234000" />
+      <workItem from="1632921211355" duration="23022000" />
+      <workItem from="1633361514438" duration="431000" />
+      <workItem from="1633361968055" duration="4466000" />
+      <workItem from="1633377877852" duration="1207000" />
+      <workItem from="1633505547038" duration="7081000" />
+      <workItem from="1633590013657" duration="4450000" />
+      <workItem from="1633605727394" duration="1214000" />
+      <workItem from="1633622481065" duration="3168000" />
+      <workItem from="1633852349436" duration="1873000" />
+      <workItem from="1633856018376" duration="2145000" />
+      <workItem from="1633871917701" duration="2024000" />
+      <workItem from="1633876448768" duration="4495000" />
+      <workItem from="1633935049221" duration="4346000" />
+      <workItem from="1633947384158" duration="2615000" />
+      <workItem from="1633968528437" duration="599000" />
+      <workItem from="1634018991294" duration="598000" />
+      <workItem from="1634049806939" duration="599000" />
+      <workItem from="1634104081848" duration="2735000" />
+      <workItem from="1634155776361" duration="24000" />
+      <workItem from="1634155854858" duration="598000" />
+      <workItem from="1634231456641" duration="601000" />
+      <workItem from="1634540826881" duration="80000" />
+      <workItem from="1634542268106" duration="910000" />
+      <workItem from="1634548856320" duration="1202000" />
+      <workItem from="1634628027918" duration="1395000" />
+      <workItem from="1634653641883" duration="71000" />
+      <workItem from="1634710788122" duration="5904000" />
+      <workItem from="1635000118486" duration="5185000" />
+      <workItem from="1635084806477" duration="4988000" />
+      <workItem from="1636563693565" duration="14000" />
+      <workItem from="1636618047359" duration="83000" />
+      <workItem from="1640880985724" duration="328000" />
+      <workItem from="1641220274279" duration="2579000" />
+      <workItem from="1641317159155" duration="997000" />
+      <workItem from="1641362204269" duration="298000" />
+    </task>
+    <task id="LOCAL-00007" summary="Create User Request dto">
+      <created>1632063425734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632063425734</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Register user account in Service">
+      <created>1632064559397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632064559397</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Register user account in Controller">
+      <created>1632138006426</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632138006426</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Security implementation">
+      <created>1632142628322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632142628322</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge with default">
+      <created>1632145490305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632145490305</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Make email and username unique.">
+      <created>1632147568368</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632147568368</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge with default">
+      <created>1632317504027</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1632317504027</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Rename &quot;fullName&quot; property to &quot;name&quot;">
+      <created>1632319059974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1632319059974</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Rename &quot;fullName&quot; property to &quot;name&quot;">
+      <created>1632321936983</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1632321936983</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge with branch user">
+      <created>1632332247799</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1632332247799</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Test register account">
+      <created>1632332872850</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1632332872850</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Enable change password in Service">
+      <created>1632342801168</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1632342801168</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix registration and password change">
+      <created>1632383663174</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1632383663174</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge with default">
+      <created>1632414324919</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1632414324919</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Test register email exists">
+      <created>1632417721647</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1632417721647</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge with default">
+      <created>1632428039510</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1632428039510</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix project cannot run">
+      <created>1632483941287</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1632483941287</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix registration">
+      <created>1632485620708</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1632485620708</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Implement change password in Controller">
+      <created>1632490262122</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1632490262122</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactor UserController">
+      <created>1632495150721</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1632495150721</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Merge with default">
+      <created>1632512298122</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632512298122</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge with default">
+      <created>1632513976960</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1632513976960</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Handle passwords do not match">
+      <created>1632583818905</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1632583818905</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Handle passwords do not match">
+      <created>1632583843091</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1632583843092</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Change ResponseEntity">
+      <created>1632584909221</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1632584909221</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Delete duplicated UserResponse">
+      <created>1632585071502</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1632585071502</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add StrongPassword and StrongPasswordValidator">
+      <created>1632585709591</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1632585709591</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add strong password validation">
+      <created>1632587652520</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1632587652520</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add strong password validation">
+      <created>1632589389059</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1632589389059</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Merge with default">
+      <created>1632598246226</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1632598246226</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Test user registration">
+      <created>1632602484966</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1632602484966</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Optimize imports">
+      <created>1632602807556</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1632602807556</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Exceptions for registration">
+      <created>1632604089453</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1632604089453</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Merge with default">
+      <created>1632665740050</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1632665740050</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fix Test registerAccount_Failure_EmailExists">
+      <created>1632666359361</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1632666359361</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Fix registration error messages not shown">
+      <created>1632667614507</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1632667614507</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add CommonPasswordRequest">
+      <created>1632669908600</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1632669908600</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add create gossip">
+      <created>1632677046753</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1632677046753</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Refactor UserController">
+      <created>1632686313037</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1632686313037</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Implement create gossip">
+      <created>1632688610948</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1632688610948</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Merge with default">
+      <created>1632689673038</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1632689673038</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Test change password">
+      <created>1632690503596</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1632690503596</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Merge with default">
+      <created>1632751484608</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1632751484608</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Merge with default">
+      <created>1632859690297</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1632859690298</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Test GossipServiceImp">
+      <created>1632893815485</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1632893815485</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Merge with default">
+      <created>1632899251534</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1632899251534</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Optimize imports">
+      <created>1632933756093</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1632933756094</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Remove comments">
+      <created>1632935086788</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1632935086788</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Reformat code.">
+      <created>1632948638127</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1632948638127</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enable change password in Service" />
+    <MESSAGE value="Fix registration and password change" />
+    <MESSAGE value="Test register email exists" />
+    <MESSAGE value="Fix project cannot run" />
+    <MESSAGE value="Fix registration" />
+    <MESSAGE value="Implement change password in Controller" />
+    <MESSAGE value="Handle passwords do not match" />
+    <MESSAGE value="Change ResponseEntity" />
+    <MESSAGE value="Delete duplicated UserResponse" />
+    <MESSAGE value="Add StrongPassword and StrongPasswordValidator" />
+    <MESSAGE value="Add strong password validation" />
+    <MESSAGE value="Test user registration" />
+    <MESSAGE value="Exceptions for registration" />
+    <MESSAGE value="Fix Test registerAccount_Failure_EmailExists" />
+    <MESSAGE value="Fix registration error messages not shown" />
+    <MESSAGE value="Add CommonPasswordRequest" />
+    <MESSAGE value="Add create gossip" />
+    <MESSAGE value="Refactor UserController" />
+    <MESSAGE value="Implement create gossip" />
+    <MESSAGE value="Test change password" />
+    <MESSAGE value="Test GossipServiceImp" />
+    <MESSAGE value="Merge with default" />
+    <MESSAGE value="Optimize imports" />
+    <MESSAGE value="Remove comments" />
+    <MESSAGE value="Reformat code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat code." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="userService.getCurrentUser()" language="JAVA" />
+      </configuration>
+      <configuration name="TestNG">
+        <watch expression="userRepository.findByEmail(email).isPresent()" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="userRepository.findByEmail(email).isPresent()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$All_in_gossip_talks.ic" NAME="All in gossip-talks Coverage Results" MODIFIED="1632327580506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$All_in_gossip_talks__2_.ic" NAME="All in gossip-talks (2) Coverage Results" MODIFIED="1632327563294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1632896849319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$UserServiceImpTest_registerAccount_Success.ic" NAME="UserServiceImpTest.registerAccount_Success Coverage Results" MODIFIED="1632416928765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$_default___5_.ic" NAME="&lt;default&gt; (5) Coverage Results" MODIFIED="1632752509025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$_default___3_.ic" NAME="&lt;default&gt; (3) Coverage Results" MODIFIED="1632667273474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$_default___1_.ic" NAME="&lt;default&gt; (1) Coverage Results" MODIFIED="1632979942873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$UserServiceImpTest.ic" NAME="UserServiceImpTest Coverage Results" MODIFIED="1632598919331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$UserServiceImpTest_changePassword_Failure.ic" NAME="UserServiceImpTest.changePassword_Failure Coverage Results" MODIFIED="1632689977052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$GossipServiceImpTest.ic" NAME="GossipServiceImpTest Coverage Results" MODIFIED="1632893746923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$_default___4_.ic" NAME="&lt;default&gt; (4) Coverage Results" MODIFIED="1632751153830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$Main.ic" NAME="Main Coverage Results" MODIFIED="1632667985030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$UserServiceImpTest_registerAccount_Failure_EmailExists.ic" NAME="UserServiceImpTest.registerAccount_Failure_EmailExists Coverage Results" MODIFIED="1632601078502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$_default___2_.ic" NAME="&lt;default&gt; (2) Coverage Results" MODIFIED="1632859719058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$UserServiceImpTest_registerAccount_Failure_PasswordsDoNotMatch.ic" NAME="UserServiceImpTest.registerAccount_Failure_PasswordsDoNotMatch Coverage Results" MODIFIED="1632601794329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$UserServiceImpTest_changePassword_Failure_NewPasswordsDoNotMatch.ic" NAME="UserServiceImpTest.changePassword_Failure_NewPasswordsDoNotMatch Coverage Results" MODIFIED="1632690095896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_5$GossipServiceImpTest_getByUser.ic" NAME="GossipServiceImpTest.getByUser Coverage Results" MODIFIED="1632892219589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+</project>

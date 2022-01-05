@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="changePassword_Failure_NewPasswordsDoNotMatch">changePassword_Failure_NewPasswordsDoNotMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="changePassword_Failure_PasswordsAreNull">changePassword_Failure_PasswordsAreNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest" class="method navigator-link" hash-for-method="createGossip_Success">createGossip_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" class="method navigator-link" hash-for-method="createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid">createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" class="method navigator-link" hash-for-method="createGossip_returnError_IfGossipIsBlank">createGossip_returnError_IfGossipIsBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="followUser_returnError_ifFTrueAndUserIsCurrent">followUser_returnError_ifFTrueAndUserIsCurrent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="followUser_returnFollowingFalse_ifFFalse">followUser_returnFollowingFalse_ifFFalse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="followUser_returnSame_ifFTrueAndIsAlreadySubscribed">followUser_returnSame_ifFTrueAndIsAlreadySubscribed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="followUser_returnSuccess_ifFTrue">followUser_returnSuccess_ifFTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest" class="method navigator-link" hash-for-method="getAllSubscriberGossips_Success">getAllSubscriberGossips_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest" class="method navigator-link" hash-for-method="getByUser_Success">getByUser_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="getCurrentUser_returnError_ifIsUnauthorized">getCurrentUser_returnError_ifIsUnauthorized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="getCurrentUser_returnUser_ifIsAuthenticated">getCurrentUser_returnUser_ifIsAuthenticated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" class="method navigator-link" hash-for-method="getUserGossips_returnErrorNotFound_IfInvalidUsername">getUserGossips_returnErrorNotFound_IfInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" class="method navigator-link" hash-for-method="getUserGossips_returnGossips_IfValidUsername">getUserGossips_returnGossips_IfValidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest" class="method navigator-link" hash-for-method="given_null_When_validate_Then_false">given_null_When_validate_Then_false</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest" class="method navigator-link" hash-for-method="given_short_password_When_validating_Then_false">given_short_password_When_validating_Then_false</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest" class="method navigator-link" hash-for-method="given_valid_password_When_validating_Then_true">given_valid_password_When_validating_Then_true</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="listUserFollowing_returnOk_ifUserIsLoggedIn">listUserFollowing_returnOk_ifUserIsLoggedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn">listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="listUserNameSearch_returnOk_ifUserIsLoggedIn">listUserNameSearch_returnOk_ifUserIsLoggedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="listUsers_ReturnAll_IfNameNotNull">listUsers_ReturnAll_IfNameNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="listUsers_ReturnAll_IfNoParams">listUsers_ReturnAll_IfNoParams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="listUsers_ReturnFollowing_IfFisTrue">listUsers_ReturnFollowing_IfFisTrue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="listUsers_ReturnFollowing_IfFisTrueAndNameNotNull">listUsers_ReturnFollowing_IfFisTrueAndNameNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="listUsers_returnOk_ifUserIsLoggedIn">listUsers_returnOk_ifUserIsLoggedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="listUsers_returnUnauthorized_ifNoLoggedUser">listUsers_returnUnauthorized_ifNoLoggedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" class="method navigator-link" hash-for-method="readAllGossips_returnContent_IfValid">readAllGossips_returnContent_IfValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest" class="method navigator-link" hash-for-method="readAllGossips_returnEmpty_IfFollowNoOne">readAllGossips_returnEmpty_IfFollowNoOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="registerAccount_Failure_EmailExists">registerAccount_Failure_EmailExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="registerAccount_Failure_PasswordsDoNotMatch">registerAccount_Failure_PasswordsDoNotMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest" class="method navigator-link" hash-for-method="registerAccount_Success">registerAccount_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="registerUser_returnBadRequest_ifAreNotValidUserFields">registerUser_returnBadRequest_ifAreNotValidUserFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="registerUser_returnCreated_ifIsAnonymous">registerUser_returnCreated_ifIsAnonymous</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="registerUser_returnFailed_ifIsAlreadyRegistered">registerUser_returnFailed_ifIsAlreadyRegistered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest" class="method navigator-link" hash-for-method="registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch">registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="followUser_returnError_ifFTrueAndUserIsCurrent">
+                  </a> <!-- followUser_returnError_ifFTrueAndUserIsCurrent -->
+                  <span class="method-name">followUser_returnError_ifFTrueAndUserIsCurrent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followUser_returnFollowingFalse_ifFFalse">
+                  </a> <!-- followUser_returnFollowingFalse_ifFFalse -->
+                  <span class="method-name">followUser_returnFollowingFalse_ifFFalse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followUser_returnSame_ifFTrueAndIsAlreadySubscribed">
+                  </a> <!-- followUser_returnSame_ifFTrueAndIsAlreadySubscribed -->
+                  <span class="method-name">followUser_returnSame_ifFTrueAndIsAlreadySubscribed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followUser_returnSuccess_ifFTrue">
+                  </a> <!-- followUser_returnSuccess_ifFTrue -->
+                  <span class="method-name">followUser_returnSuccess_ifFTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCurrentUser_returnError_ifIsUnauthorized">
+                  </a> <!-- getCurrentUser_returnError_ifIsUnauthorized -->
+                  <span class="method-name">getCurrentUser_returnError_ifIsUnauthorized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCurrentUser_returnUser_ifIsAuthenticated">
+                  </a> <!-- getCurrentUser_returnUser_ifIsAuthenticated -->
+                  <span class="method-name">getCurrentUser_returnUser_ifIsAuthenticated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUserFollowing_returnOk_ifUserIsLoggedIn">
+                  </a> <!-- listUserFollowing_returnOk_ifUserIsLoggedIn -->
+                  <span class="method-name">listUserFollowing_returnOk_ifUserIsLoggedIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn">
+                  </a> <!-- listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn -->
+                  <span class="method-name">listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUserNameSearch_returnOk_ifUserIsLoggedIn">
+                  </a> <!-- listUserNameSearch_returnOk_ifUserIsLoggedIn -->
+                  <span class="method-name">listUserNameSearch_returnOk_ifUserIsLoggedIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUsers_returnOk_ifUserIsLoggedIn">
+                  </a> <!-- listUsers_returnOk_ifUserIsLoggedIn -->
+                  <span class="method-name">listUsers_returnOk_ifUserIsLoggedIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUsers_returnUnauthorized_ifNoLoggedUser">
+                  </a> <!-- listUsers_returnUnauthorized_ifNoLoggedUser -->
+                  <span class="method-name">listUsers_returnUnauthorized_ifNoLoggedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_returnBadRequest_ifAreNotValidUserFields">
+                  </a> <!-- registerUser_returnBadRequest_ifAreNotValidUserFields -->
+                  <span class="method-name">registerUser_returnBadRequest_ifAreNotValidUserFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_returnCreated_ifIsAnonymous">
+                  </a> <!-- registerUser_returnCreated_ifIsAnonymous -->
+                  <span class="method-name">registerUser_returnCreated_ifIsAnonymous</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_returnFailed_ifIsAlreadyRegistered">
+                  </a> <!-- registerUser_returnFailed_ifIsAlreadyRegistered -->
+                  <span class="method-name">registerUser_returnFailed_ifIsAlreadyRegistered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch">
+                  </a> <!-- registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch -->
+                  <span class="method-name">registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="given_null_When_validate_Then_false">
+                  </a> <!-- given_null_When_validate_Then_false -->
+                  <span class="method-name">given_null_When_validate_Then_false</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="given_short_password_When_validating_Then_false">
+                  </a> <!-- given_short_password_When_validating_Then_false -->
+                  <span class="method-name">given_short_password_When_validating_Then_false</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="given_valid_password_When_validating_Then_true">
+                  </a> <!-- given_valid_password_When_validating_Then_true -->
+                  <span class="method-name">given_valid_password_When_validating_Then_true</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createGossip_Success">
+                  </a> <!-- createGossip_Success -->
+                  <span class="method-name">createGossip_Success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllSubscriberGossips_Success">
+                  </a> <!-- getAllSubscriberGossips_Success -->
+                  <span class="method-name">getAllSubscriberGossips_Success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getByUser_Success">
+                  </a> <!-- getByUser_Success -->
+                  <span class="method-name">getByUser_Success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePassword_Failure_NewPasswordsDoNotMatch">
+                  </a> <!-- changePassword_Failure_NewPasswordsDoNotMatch -->
+                  <span class="method-name">changePassword_Failure_NewPasswordsDoNotMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePassword_Failure_PasswordsAreNull">
+                  </a> <!-- changePassword_Failure_PasswordsAreNull -->
+                  <span class="method-name">changePassword_Failure_PasswordsAreNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUsers_ReturnAll_IfNameNotNull">
+                  </a> <!-- listUsers_ReturnAll_IfNameNotNull -->
+                  <span class="method-name">listUsers_ReturnAll_IfNameNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUsers_ReturnAll_IfNoParams">
+                  </a> <!-- listUsers_ReturnAll_IfNoParams -->
+                  <span class="method-name">listUsers_ReturnAll_IfNoParams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUsers_ReturnFollowing_IfFisTrue">
+                  </a> <!-- listUsers_ReturnFollowing_IfFisTrue -->
+                  <span class="method-name">listUsers_ReturnFollowing_IfFisTrue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listUsers_ReturnFollowing_IfFisTrueAndNameNotNull">
+                  </a> <!-- listUsers_ReturnFollowing_IfFisTrueAndNameNotNull -->
+                  <span class="method-name">listUsers_ReturnFollowing_IfFisTrueAndNameNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccount_Failure_EmailExists">
+                  </a> <!-- registerAccount_Failure_EmailExists -->
+                  <span class="method-name">registerAccount_Failure_EmailExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccount_Failure_PasswordsDoNotMatch">
+                  </a> <!-- registerAccount_Failure_PasswordsDoNotMatch -->
+                  <span class="method-name">registerAccount_Failure_PasswordsDoNotMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccount_Success">
+                  </a> <!-- registerAccount_Success -->
+                  <span class="method-name">registerAccount_Success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid">
+                  </a> <!-- createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid -->
+                  <span class="method-name">createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createGossip_returnError_IfGossipIsBlank">
+                  </a> <!-- createGossip_returnError_IfGossipIsBlank -->
+                  <span class="method-name">createGossip_returnError_IfGossipIsBlank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserGossips_returnErrorNotFound_IfInvalidUsername">
+                  </a> <!-- getUserGossips_returnErrorNotFound_IfInvalidUsername -->
+                  <span class="method-name">getUserGossips_returnErrorNotFound_IfInvalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserGossips_returnGossips_IfValidUsername">
+                  </a> <!-- getUserGossips_returnGossips_IfValidUsername -->
+                  <span class="method-name">getUserGossips_returnGossips_IfValidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readAllGossips_returnContent_IfValid">
+                  </a> <!-- readAllGossips_returnContent_IfValid -->
+                  <span class="method-name">readAllGossips_returnContent_IfValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readAllGossips_returnEmpty_IfFollowNoOne">
+                  </a> <!-- readAllGossips_returnEmpty_IfFollowNoOne -->
+                  <span class="method-name">readAllGossips_returnEmpty_IfFollowNoOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.controller.UserControllerTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.GossipTalksIntegrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'followUser_returnError_ifFTrueAndUserIsCurrent')
+data.setCell(0, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(0, 3, 215);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerUser_returnCreated_ifIsAnonymous')
+data.setCell(1, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(1, 3, 139);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerAccount_Success')
+data.setCell(2, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(2, 3, 128);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getUserGossips_returnGossips_IfValidUsername')
+data.setCell(3, 2, 'bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest')
+data.setCell(3, 3, 102);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'followUser_returnFollowingFalse_ifFFalse')
+data.setCell(4, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(4, 3, 97);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registerUser_returnBadRequest_ifAreNotValidUserFields')
+data.setCell(5, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(5, 3, 85);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'listUserFollowing_returnOk_ifUserIsLoggedIn')
+data.setCell(6, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(6, 3, 76);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getAllSubscriberGossips_Success')
+data.setCell(7, 2, 'bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest')
+data.setCell(7, 3, 63);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'followUser_returnSame_ifFTrueAndIsAlreadySubscribed')
+data.setCell(8, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(8, 3, 59);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createGossip_Success')
+data.setCell(9, 2, 'bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest')
+data.setCell(9, 3, 49);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getUserGossips_returnErrorNotFound_IfInvalidUsername')
+data.setCell(10, 2, 'bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest')
+data.setCell(10, 3, 34);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'listUserNameSearch_returnOk_ifUserIsLoggedIn')
+data.setCell(11, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(11, 3, 33);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'listUsers_returnOk_ifUserIsLoggedIn')
+data.setCell(12, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(12, 3, 27);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'followUser_returnSuccess_ifFTrue')
+data.setCell(13, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(13, 3, 25);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'readAllGossips_returnContent_IfValid')
+data.setCell(14, 2, 'bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest')
+data.setCell(14, 3, 21);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getByUser_Success')
+data.setCell(15, 2, 'bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest')
+data.setCell(15, 3, 15);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn')
+data.setCell(16, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(16, 3, 15);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getCurrentUser_returnError_ifIsUnauthorized')
+data.setCell(17, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(17, 3, 14);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'changePassword_Failure_NewPasswordsDoNotMatch')
+data.setCell(18, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(18, 3, 14);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid')
+data.setCell(19, 2, 'bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest')
+data.setCell(19, 3, 14);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch')
+data.setCell(20, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(20, 3, 13);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getCurrentUser_returnUser_ifIsAuthenticated')
+data.setCell(21, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(21, 3, 10);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'listUsers_returnUnauthorized_ifNoLoggedUser')
+data.setCell(22, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(22, 3, 10);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'readAllGossips_returnEmpty_IfFollowNoOne')
+data.setCell(23, 2, 'bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest')
+data.setCell(23, 3, 10);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'registerUser_returnFailed_ifIsAlreadyRegistered')
+data.setCell(24, 2, 'bg.codeacademy.spring.gossiptalks.controller.UserControllerTest')
+data.setCell(24, 3, 8);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'given_null_When_validate_Then_false')
+data.setCell(25, 2, 'bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest')
+data.setCell(25, 3, 7);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'createGossip_returnError_IfGossipIsBlank')
+data.setCell(26, 2, 'bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest')
+data.setCell(26, 3, 6);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'changePassword_Failure_PasswordsAreNull')
+data.setCell(27, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(27, 3, 6);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'listUsers_ReturnFollowing_IfFisTrue')
+data.setCell(28, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(28, 3, 3);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'listUsers_ReturnFollowing_IfFisTrueAndNameNotNull')
+data.setCell(29, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(29, 3, 3);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'registerAccount_Failure_EmailExists')
+data.setCell(30, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(30, 3, 3);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'listUsers_ReturnAll_IfNameNotNull')
+data.setCell(31, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(31, 3, 3);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'listUsers_ReturnAll_IfNoParams')
+data.setCell(32, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(32, 3, 2);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'registerAccount_Failure_PasswordsDoNotMatch')
+data.setCell(33, 2, 'bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest')
+data.setCell(33, 3, 2);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'given_short_password_When_validating_Then_false')
+data.setCell(34, 2, 'bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'given_valid_password_When_validating_Then_true')
+data.setCell(35, 2, 'bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest')
+data.setCell(35, 3, 1);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(void bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest.createGossip_Success())</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createGossip_Success</span>
+                <span class="method-start">1639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(void bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest.createGossip_Success())</span>
+                <span class="method-start">1691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(void bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest.getAllSubscriberGossips_Success(...)</span>
+                <span class="method-start">1705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllSubscriberGossips_Success</span>
+                <span class="method-start">1710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(void bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest.getAllSubscriberGossips_Success(...)</span>
+                <span class="method-start">1774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(void bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest.getByUser_Success())</span>
+                <span class="method-start">1780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getByUser_Success</span>
+                <span class="method-start">1790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(void bg.codeacademy.spring.gossiptalks.service.GossipServiceImpTest.getByUser_Success())</span>
+                <span class="method-start">1805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">1808 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">1821 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">1827 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.changePassword_Failure_NewP...)</span>
+                <span class="method-start">1849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changePassword_Failure_NewPasswordsDoNotMatch</span>
+                <span class="method-start">2275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.changePassword_Failure_NewP...)</span>
+                <span class="method-start">2289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.changePassword_Failure_Pass...)</span>
+                <span class="method-start">2291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changePassword_Failure_PasswordsAreNull</span>
+                <span class="method-start">2295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.changePassword_Failure_Pass...)</span>
+                <span class="method-start">2302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnAll_IfNameN...)</span>
+                <span class="method-start">2304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUsers_ReturnAll_IfNameNotNull</span>
+                <span class="method-start">2307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnAll_IfNameN...)</span>
+                <span class="method-start">2310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnAll_IfNoPar...)</span>
+                <span class="method-start">2312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUsers_ReturnAll_IfNoParams</span>
+                <span class="method-start">2316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnAll_IfNoPar...)</span>
+                <span class="method-start">2318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnFollowing_I...)</span>
+                <span class="method-start">2323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUsers_ReturnFollowing_IfFisTrue</span>
+                <span class="method-start">2327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnFollowing_I...)</span>
+                <span class="method-start">2331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnFollowing_I...)</span>
+                <span class="method-start">2333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUsers_ReturnFollowing_IfFisTrueAndNameNotNull</span>
+                <span class="method-start">2337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.listUsers_ReturnFollowing_I...)</span>
+                <span class="method-start">2340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.registerAccount_Failure_Ema...)</span>
+                <span class="method-start">2342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccount_Failure_EmailExists</span>
+                <span class="method-start">2351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.registerAccount_Failure_Ema...)</span>
+                <span class="method-start">2355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.registerAccount_Failure_Pas...)</span>
+                <span class="method-start">2357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccount_Failure_PasswordsDoNotMatch</span>
+                <span class="method-start">2360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.registerAccount_Failure_Pas...)</span>
+                <span class="method-start">2362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.registerAccount_Success())</span>
+                <span class="method-start">2364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccount_Success</span>
+                <span class="method-start">2368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.service.UserServiceImpTest.registerAccount_Success())</span>
+                <span class="method-start">2496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">2499 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">2504 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">2508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnError_i...)</span>
+                <span class="method-start">13415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followUser_returnError_ifFTrueAndUserIsCurrent</span>
+                <span class="method-start">13772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnError_i...)</span>
+                <span class="method-start">14040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnFollowi...)</span>
+                <span class="method-start">14041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followUser_returnFollowingFalse_ifFFalse</span>
+                <span class="method-start">14061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnFollowi...)</span>
+                <span class="method-start">14172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnSame_if...)</span>
+                <span class="method-start">14173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followUser_returnSame_ifFTrueAndIsAlreadySubscribed</span>
+                <span class="method-start">14188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnSame_if...)</span>
+                <span class="method-start">14264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnSuccess...)</span>
+                <span class="method-start">14265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followUser_returnSuccess_ifFTrue</span>
+                <span class="method-start">14281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.followUser_returnSuccess...)</span>
+                <span class="method-start">14320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.getCurrentUser_returnErr...)</span>
+                <span class="method-start">14321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCurrentUser_returnError_ifIsUnauthorized</span>
+                <span class="method-start">14333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.getCurrentUser_returnErr...)</span>
+                <span class="method-start">14360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.getCurrentUser_returnUse...)</span>
+                <span class="method-start">14361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14363 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCurrentUser_returnUser_ifIsAuthenticated</span>
+                <span class="method-start">14377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.getCurrentUser_returnUse...)</span>
+                <span class="method-start">14397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUserFollowing_return...)</span>
+                <span class="method-start">14398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUserFollowing_returnOk_ifUserIsLoggedIn</span>
+                <span class="method-start">14411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUserFollowing_return...)</span>
+                <span class="method-start">14500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUserNameSearchFollow...)</span>
+                <span class="method-start">14501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUserNameSearchFollowing_returnOk_ifUserIsLoggedIn</span>
+                <span class="method-start">14516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUserNameSearchFollow...)</span>
+                <span class="method-start">14546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUserNameSearch_retur...)</span>
+                <span class="method-start">14547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUserNameSearch_returnOk_ifUserIsLoggedIn</span>
+                <span class="method-start">14565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUserNameSearch_retur...)</span>
+                <span class="method-start">14611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUsers_returnOk_ifUse...)</span>
+                <span class="method-start">14612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUsers_returnOk_ifUserIsLoggedIn</span>
+                <span class="method-start">14629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14657 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUsers_returnOk_ifUse...)</span>
+                <span class="method-start">14669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUsers_returnUnauthor...)</span>
+                <span class="method-start">14670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listUsers_returnUnauthorized_ifNoLoggedUser</span>
+                <span class="method-start">14685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.listUsers_returnUnauthor...)</span>
+                <span class="method-start">14707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnBadRe...)</span>
+                <span class="method-start">14708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser_returnBadRequest_ifAreNotValidUserFields</span>
+                <span class="method-start">14720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnBadRe...)</span>
+                <span class="method-start">14813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnCreat...)</span>
+                <span class="method-start">14814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser_returnCreated_ifIsAnonymous</span>
+                <span class="method-start">14828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14967 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnCreat...)</span>
+                <span class="method-start">14978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnFaile...)</span>
+                <span class="method-start">14979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser_returnFailed_ifIsAlreadyRegistered</span>
+                <span class="method-start">14990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnFaile...)</span>
+                <span class="method-start">15010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnPassw...)</span>
+                <span class="method-start">15011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser_returnPasswordDoesntMatch_ifPasswordDoesntMatch</span>
+                <span class="method-start">15026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.registerUser_returnPassw...)</span>
+                <span class="method-start">15051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">15051 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">15052 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15053 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.createGossip_returnCre...)</span>
+                <span class="method-start">15060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createGossip_returnCreatedWithHtmlEscaped_IfGossipIsValid</span>
+                <span class="method-start">15274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.createGossip_returnCre...)</span>
+                <span class="method-start">15301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.createGossip_returnErr...)</span>
+                <span class="method-start">15302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createGossip_returnError_IfGossipIsBlank</span>
+                <span class="method-start">15502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.createGossip_returnErr...)</span>
+                <span class="method-start">15519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.getUserGossips_returnE...)</span>
+                <span class="method-start">15520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUserGossips_returnErrorNotFound_IfInvalidUsername</span>
+                <span class="method-start">15719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.getUserGossips_returnE...)</span>
+                <span class="method-start">15767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.getUserGossips_returnG...)</span>
+                <span class="method-start">15768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUserGossips_returnGossips_IfValidUsername</span>
+                <span class="method-start">15973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.getUserGossips_returnG...)</span>
+                <span class="method-start">16089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.readAllGossips_returnC...)</span>
+                <span class="method-start">16089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readAllGossips_returnContent_IfValid</span>
+                <span class="method-start">16289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.readAllGossips_returnC...)</span>
+                <span class="method-start">16320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.readAllGossips_returnE...)</span>
+                <span class="method-start">16321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readAllGossips_returnEmpty_IfFollowNoOne</span>
+                <span class="method-start">16521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16544 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.readAllGossips_returnE...)</span>
+                <span class="method-start">16544 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.validation.StrongPasswordValidatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">given_null_When_validate_Then_false</span>
+                <span class="method-start">16611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">given_short_password_When_validating_Then_false</span>
+                <span class="method-start">16620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">given_valid_password_When_validating_Then_true</span>
+                <span class="method-start">16623 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

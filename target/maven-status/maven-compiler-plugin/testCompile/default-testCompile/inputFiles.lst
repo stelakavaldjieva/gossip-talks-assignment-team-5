@@ -1,0 +1,6 @@
+/home/stela/IdeaProjects/gossip-talks-assignment-team-5/src/test/java/bg/codeacademy/spring/gossiptalks/controller/GossipControllerTest.java
+/home/stela/IdeaProjects/gossip-talks-assignment-team-5/src/test/java/bg/codeacademy/spring/gossiptalks/service/GossipServiceImpTest.java
+/home/stela/IdeaProjects/gossip-talks-assignment-team-5/src/test/java/bg/codeacademy/spring/gossiptalks/service/UserServiceImpTest.java
+/home/stela/IdeaProjects/gossip-talks-assignment-team-5/src/test/java/bg/codeacademy/spring/gossiptalks/validation/StrongPasswordValidatorTest.java
+/home/stela/IdeaProjects/gossip-talks-assignment-team-5/src/test/java/bg/codeacademy/spring/gossiptalks/GossipTalksIntegrationTests.java
+/home/stela/IdeaProjects/gossip-talks-assignment-team-5/src/test/java/bg/codeacademy/spring/gossiptalks/controller/UserControllerTest.java
